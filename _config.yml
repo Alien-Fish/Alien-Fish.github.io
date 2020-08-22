@@ -1,1 +1,31 @@
-theme: jekyll-theme-cayman
+# Site settings
+name: Deep Or Shallow
+email: 1074494343@qq.com
+author: Lean Yang
+url: https://alien-fish.github.io/
+resume_site: https://alien-fish.github.io/reference/
+github: https://github.com/Alien-Fish
+baseurl: ""
+description: Actually, Deep Or Shallow!
+meta_description: 杨乐安;个人博客;格物致知;读万卷书不如行万里路;
+motto: 有梦想的咸鱼
+banner: 好看的皮囊千篇一律,有趣的灵魂万里挑一
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: Alien-Fish
+
+# Build settings
+markdown: kramdown
+# markdown: redcarpet
+
+baidu_analysis: 10f071fdc1dc47d09ab650b3542e6e72
+
+plugins: [jekyll-paginate]
+
+
+#theme: jekyll-theme-cayman
